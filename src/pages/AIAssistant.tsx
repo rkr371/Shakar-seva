@@ -5,7 +5,7 @@ import { cn } from '../lib/utils';
 export function AIAssistant() {
   const [query, setQuery] = useState('');
   const [chatHistory, setChatHistory] = useState([
-    { role: 'ai', content: "Hello! I am ApnaHelper AI, your cooperative operations assistant. How can I help you manage the workforce today?" }
+    { role: 'ai', content: "Hello! I am Sahayog AI, your cooperative operations assistant. How can I help you manage the workforce today?" }
   ]);
   const [isTyping, setIsTyping] = useState(false);
 
@@ -45,7 +45,7 @@ export function AIAssistant() {
           <Bot className="w-6 h-6" />
         </div>
         <div>
-          <h1 className="text-2xl font-bold text-slate-900">ApnaHelper AI</h1>
+          <h1 className="text-2xl font-bold text-slate-900">Sahayog AI</h1>
           <p className="text-slate-500">Your cooperative operations assistant</p>
         </div>
       </div>
@@ -110,7 +110,7 @@ export function AIAssistant() {
               value={query}
               onChange={(e) => setQuery(e.target.value)}
               onKeyDown={(e) => e.key === 'Enter' && handleSend(query)}
-              placeholder="Ask ApnaHelper AI..."
+              placeholder="Ask Sahayog AI..."
               className="w-full bg-slate-50 border border-slate-200 rounded-xl px-4 py-4 pr-14 focus:ring-2 focus:ring-teal-500 focus:border-teal-500 transition-all text-slate-700"
             />
             <button 

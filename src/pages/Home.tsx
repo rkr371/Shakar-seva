@@ -18,7 +18,7 @@ export function Home() {
           </div>
           
           <h1 className="text-5xl md:text-7xl font-extrabold tracking-tight">
-            ApnaHelper
+            Sahayog
           </h1>
           <p className="text-2xl md:text-3xl font-light text-slate-300">
             Local Skills. Trusted Services. Fair Work.
@@ -44,7 +44,7 @@ export function Home() {
           <ArrowRight className="hidden md:block w-5 h-5 text-teal-500" />
           <div className="text-teal-500 rotate-90 md:rotate-0 mb-2 md:mb-0">↓</div>
           <div className="bg-teal-900/50 text-teal-300 px-6 py-3 rounded-lg border border-teal-500/50 flex items-center gap-2">
-            <Bot className="w-4 h-4" /> APNAHELPER AI
+            <Bot className="w-4 h-4" /> SAHAYOG AI
           </div>
           <ArrowRight className="hidden md:block w-5 h-5 text-teal-500" />
           <div className="text-teal-500 rotate-90 md:rotate-0 mb-2 md:mb-0">↓</div>
