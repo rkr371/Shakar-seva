@@ -1,0 +1,6 @@
+{
+  "name": "ApnaHelper",
+  "description": "An AI-powered cooperative workforce platform connecting households and institutions with verified local workers while helping cooperatives intelligently manage workforce demand.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
